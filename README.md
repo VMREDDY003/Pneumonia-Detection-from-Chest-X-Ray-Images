@@ -1,6 +1,6 @@
 # 🚑 Pneumonia Detection from Chest X-Ray Images using CNN
 
-![Pneumonia Detection](https://user-images.githubusercontent.com/yourusername/your-repo-image.png)  
+![Pneumonia Detection](pneumonia-Detection-from-Chest-X-Ray.png)  
 *Detect Pneumonia with Deep Learning on Chest X-rays*
 
 ---
