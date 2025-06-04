@@ -4,7 +4,7 @@ import tensorflow as tf
 from utils.preprocessing import load_and_prepare_image
 import numpy as np
 
-MODEL_PATH = "/media/hunter/MYdrive/guvi/pneumonia_detection_cnn/model/pneumonia_mobilenetv2.h5"
+MODEL_PATH = "model/pneumonia_mobilenetv2.h5"
 
 # Load model once to reuse
 model = tf.keras.models.load_model(MODEL_PATH)
