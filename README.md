@@ -45,3 +45,58 @@ We use the **Chest X-Ray Images (Pneumonia)** dataset from Kaggle:
    ```
    git clone https://github.com/VMREDDY003/Pneumonia-Detection-from-Chest-X-Ray-Images.git
    cd Pneumonia-Detection-from-Chest-X-Ray-Images
+---
+
+## Create and activate a virtual environment
+
+ 
+      python3 -m venv .venv
+      source .venv/bin/activate   # Windows: .venv\Scripts\activate
+---
+
+## Install dependencies
+    
+      pip install -r requirements.txt
+---
+
+## 🚀 Usage
+Run the Streamlit Web Application
+
+      streamlit run app/app.py
+
+Open the displayed URL (usually http://localhost:8501) in your browser. Upload a chest X-ray image to get an instant pneumonia prediction!
+
+## 🏋️‍♂️ Model Training
+To retrain or fine-tune the model:
+
+Prepare your dataset in the data/ folder.
+
+### Run the training notebook:
+
+      jupyter notebook notebooks/eda_and_training.ipynb
+or run the training script:
+
+      python scripts/train_model.py
+Model weights will be saved in the model/ directory as pneumonia_mobilenetv2.h5.
+
+## 🗂️ Project Structure
+
+      Pneumonia-Detection-from-Chest-X-Ray-Images/
+      │
+      ├── app/                     # Streamlit application files
+      ├── data/                    # Dataset (not included in repo)
+      ├── model/                   # Saved model weights
+      ├── notebooks/               # Exploratory Data Analysis & training notebooks
+      ├── scripts/                 # Training and utility scripts
+      ├── utils/                   # Helper functions (prediction, preprocessing)
+      ├── requirements.txt         # Project dependencies
+      └── README.md                # Project documentation
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check issues page.
+
+📬 Contact
+VM Reddy
+Reach out at: [malleswarareddy8008@gmail.com]
+
