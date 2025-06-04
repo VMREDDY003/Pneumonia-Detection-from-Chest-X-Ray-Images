@@ -8,7 +8,6 @@
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)  
 [![TensorFlow](https://img.shields.io/badge/tensorflow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)  
 [![Streamlit](https://img.shields.io/badge/streamlit-app-red?logo=streamlit&logoColor=white)](https://streamlit.io/)  
-[![License](https://img.shields.io/github/license/VMREDDY003/Pneumonia-Detection-from-Chest-X-Ray-Images)](LICENSE)
 
 ---
 
