@@ -97,6 +97,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check issues page.
 
 📬 Contact
-VM Reddy
+VM Reddy,
 Reach out at: [malleswarareddy8008@gmail.com]
 
