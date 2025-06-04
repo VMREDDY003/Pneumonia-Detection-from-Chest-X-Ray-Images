@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+keras==2.15.0
+matplotlib
+numpy
+pandas
+seaborn
+scikit-learn
+opencv-python
+streamlit
+kagglehub
